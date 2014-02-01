@@ -1,0 +1,28 @@
+﻿// This is the root file of a PGGBT theme. This file references every styling that's common for all of the pages.
+// Also by default PGBBT includes just site.css, the CSS file generated from this file - by placing a site.less in your theme it will be used.
+// Notice that all styling is done in LESS (http://www.lesscss.org/).
+
+
+// This is a typical usage of PGBBT: you import from it what you need. All the files in PGBBT are self-contained, they also import everything
+// they need. Thus you only have to worry about importing the files you think you need, you don't have to care about their dependencies.
+// This is CSS in the end so be advised that ordering does matter.
+
+// Importing a file from PGGBT.
+@import "../../Lombiq.PrettyGoodBootstrapBaseTheme/Styles/reset";
+// Importing some files directly from Bootstrap.
+@import "../../Lombiq.PrettyGoodBootstrapBaseTheme/Content/Bootstrap/less/scaffolding";
+@import "../../Lombiq.PrettyGoodBootstrapBaseTheme/Content/Bootstrap/less/code";
+@import "../../Lombiq.PrettyGoodBootstrapBaseTheme/Content/Bootstrap/less/tables";
+// Importing our own files from this theme. It's good practice to divide your theme up into smaller LESS files instead of one huge file for
+// clarity. These are just some examples but you get the idea: if you have a big theme, split the styling into multiple files. These imports
+// happen on the server side, so still a single site.css will be served.
+// You can also take a look at these files, there are some explanations too.
+@import "variables";
+@import "general";
+@import "../../Lombiq.PrettyGoodBootstrapBaseTheme/Styles/misc";
+@import "forms";
+
+// Once you've looked through all the LESS files it's time to take a quick look at the templates to see how you can extend PGBBT with them!
+// Since PGBBT is designed to be used as a base theme although it contains a lot of styling it is built to give you a high degree of control
+// on what you want to use from it. Those templates serve as extension points as well.
+// Head over to the Views folder!
