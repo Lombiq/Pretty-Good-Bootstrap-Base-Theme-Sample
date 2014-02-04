@@ -10,6 +10,6 @@ This sample is just demonstrating the usage of PGBBT: if you haven't already you
 
 For the best development experience we advise you to use Visual Studio with the [Web Essentials extension](http://vswebessentials.com/) installed.
 
-BTW if you want to add a custom favicon to your team just drop it into the Images folder like it was done here!
+BTW if you want to add a custom favicon to your team just drop it into the Images folder like it was done here! (Make sure to have you favicons adapted to multiple sizes. This can be easily done with multi-layer icons that can be [simply generated](http://convertico.org/).)
 
 You'll be guided by comments everywhere. Start with site.less!
