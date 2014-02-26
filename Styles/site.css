@@ -251,7 +251,8 @@ th {
 }
 /* Breadcrumbs
    Imports styles needed for removing browser inconsistencies.
-***************************************************************/* {
+***************************************************************/
+* {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -269,7 +270,7 @@ html {
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   color: #ffffff;
   background-color: #4d4948;
 }
@@ -312,7 +313,7 @@ img {
 }
 .img-thumbnail {
   padding: 4px;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   background-color: #4d4948;
   border: 1px solid #dddddd;
   border-radius: 0;
@@ -368,7 +369,7 @@ pre {
   padding: 9.5px;
   margin: 0 0 10px;
   font-size: 13px;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   word-break: break-all;
   word-wrap: break-word;
   color: #333333;
@@ -406,7 +407,7 @@ th {
 .table > tbody > tr > td,
 .table > tfoot > tr > td {
   padding: 8px;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   vertical-align: top;
   border-top: 1px solid #dddddd;
 }
@@ -755,7 +756,7 @@ body {
   .aside-2 #layout-main-container #aside-first,
   .aside-1 #layout-main-container #aside-second,
   .aside-2 #layout-main-container #aside-second {
-    width: 33.33333333333333%;
+    width: 33.33333333%;
   }
 }
 .aside-1 #layout-main-container #layout-content,
@@ -770,7 +771,7 @@ body {
 @media (min-width: 57.8em) {
   .aside-1 #layout-main-container #layout-content,
   .aside-2 #layout-main-container #layout-content {
-    width: 66.66666666666666%;
+    width: 66.66666667%;
   }
 }
 .aside-12 #layout-main-container #aside-first,
@@ -853,7 +854,7 @@ body {
   .tripel-123 #layout-tripel-container #tripel-first,
   .tripel-123 #layout-tripel-container #tripel-second,
   .tripel-123 #layout-tripel-container #tripel-third {
-    width: 33.33333333333333%;
+    width: 33.33333333%;
   }
 }
 .tripel-12 #layout-tripel-container #tripel-first,
@@ -1007,7 +1008,7 @@ body {
   .split-124 #layout-footer #footer-quad #footer-quad-fourth,
   .split-134 #layout-footer #footer-quad #footer-quad-fourth,
   .split-234 #layout-footer #footer-quad #footer-quad-fourth {
-    width: 33.33333333333333%;
+    width: 33.33333333%;
   }
 }
 .split-1234 #layout-footer #footer-quad #footer-quad-first,
@@ -1349,7 +1350,6 @@ input[type="checkbox"] {
   margin: 4px 0 0;
   margin-top: 1px \9;
   /* IE8-9 */
-
   line-height: normal;
 }
 input[type="file"] {
@@ -1374,7 +1374,7 @@ output {
   display: block;
   padding-top: 7px;
   font-size: 14px;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   color: #555555;
 }
 .form-control,
@@ -1399,7 +1399,7 @@ input[type="color"] {
   height: 34px;
   padding: 6px 12px;
   font-size: 14px;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   color: #555555;
   background-color: #ffffff;
   background-image: none;
@@ -1704,7 +1704,7 @@ select[multiple].input-lg {
   white-space: nowrap;
   padding: 6px 12px;
   font-size: 14px;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   border-radius: 0;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -2143,7 +2143,7 @@ button,
   white-space: nowrap;
   padding: 6px 12px;
   font-size: 14px;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   border-radius: 0;
   -webkit-user-select: none;
   -moz-user-select: none;
