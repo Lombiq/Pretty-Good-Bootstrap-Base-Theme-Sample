@@ -126,6 +126,21 @@
   <ItemGroup>
     <Content Include="Licence.md" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Styles\general.css.map">
+      <DependentUpon>general.css</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Styles\variables.css.map">
+      <DependentUpon>variables.css</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Styles\site.css.map">
+      <DependentUpon>site.css</DependentUpon>
+    </Content>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
