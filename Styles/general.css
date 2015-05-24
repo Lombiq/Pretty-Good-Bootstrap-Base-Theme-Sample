@@ -1,7 +1,4 @@
-﻿/* Breadcrumbs
-   Some LESS variables that you can configure from your derived theme.
-***************************************************************/
-/* Common
+﻿/* Common
    Common imports needed in every PGBBT LESS file.
 ***************************************************************/
 /* Structure
@@ -428,6 +425,9 @@ body {
 .zone {
   padding: 1rem;
 }
+/* Breadcrumbs
+   Some LESS variables that you can configure from your derived theme.
+***************************************************************/
 /* Variables
 ***************************************************************/
 /* Colors */
