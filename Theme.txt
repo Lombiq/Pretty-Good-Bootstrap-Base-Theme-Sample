@@ -1,6 +1,6 @@
 Name: Pretty Good Bootstrap Base Theme Sample
 Author: Lombiq
-Website: http://pgbbtsample.codeplex.com/
+Website: https://github.com/Lombiq/Pretty-Good-Bootstrap-Base-Theme-Sample
 Description: Sample theme demonstrating how to use Pretty Good Bootstrap Base Theme.
 Version: 1.0
 BaseTheme: Lombiq.PrettyGoodBootstrapBaseTheme
