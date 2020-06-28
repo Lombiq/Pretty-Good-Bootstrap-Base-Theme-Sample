@@ -1,26 +1,22 @@
-# Pretty Good Bootstrap Base Theme Orchard Theme Sample Readme
+# Lombiq's Open-Source Orchard Core Extensions
 
 
 
-This theme demonstrates how to build themes on top of Lombiq.PrettyGoodBootstrapBaseTheme, or PGBBT for short.
+## About
 
-Notice that this theme has the "BaseTheme: Lombiq.PrettyGoodBootstrapBaseTheme" declaration in its Theme.txt so PGBBT is used as its base theme. Also note that if you want to see the zone map under Widgets on the admin you should have your own ThemeZonePreview.png in your theme, just as it is here.
+Looking for some useful Orchard Core extensions? Here's a bundle solution of all of Lombiq's open-source Orchard Core extensions (modules and themes). Clone and try them out!
 
-This sample is just demonstrating the usage of PGBBT: if you haven't already you also should read the [Bootstrap](http://getbootstrap.com/) and [LESS](http://www.lesscss.org/) documentation, and only [that of PGBBT](https://github.com/Lombiq/Pretty-Good-Bootstrap-Base-Theme/blob/master/Readme.md). 
-You'll need PGBBT also installed for the theme to work (in a folder called Lombiq.PrettyGoodBootstrapBaseTheme as that project is named as such).
+This is an [Orchard Core CMS](https://www.orchardcore.net/) Visual Studio solution that contains most of [Lombiq](https://lombiq.com)'s open-source Orchard modules and themes, as well as related utilities and libraries. Please keep in mind that only those extensions are included which use the latest released version of Orchard (i.e. the very cutting-edge ones depending on a nightly build are not yet here). Since the extensions are included as git submodules when cloning this repo set git to initialize submodules.
 
-For the best development experience we advise you to use Visual Studio with the [Web Essentials](http://vswebessentials.com/) and [Web Compiler](https://visualstudiogallery.msdn.microsoft.com/3b329021-cd7a-4a01-86fc-714c2d05bb6c) extensions installed.
+This also serves as an example of an ASP.NET Core web app using Orchard from NuGet.
 
-BTW if you want to add a custom favicon to your team just drop it into the Images folder like it was done here! (Make sure to have you favicons adapted to multiple sizes. This can be easily done with multi-layer icons that can be [simply generated](http://convertico.org/).)
+**You'll need to install NPM and Gulp for the solution to build** since the Vue.js module depends on it. Check out [the module's Readme](https://github.com/Lombiq/Orchard-Vue.js#prerequisites) for details.
 
-You'll be guided by comments everywhere. Start with site.less!
+ Note that this solution has a more recent version targeting the nightly build of Orchard in the [orchard-core-preview branch](https://github.com/Lombiq/Open-Source-Orchard-Core-Extensions/tree/orchard-core-preview).
 
-The module's source is available in two public source repositories, automatically mirrored in both directions with [Git-hg Mirror](https://githgmirror.com):
 
-- [https://bitbucket.org/Lombiq/pretty-good-bootstrap-base-theme-sample](https://bitbucket.org/Lombiq/pretty-good-bootstrap-base-theme-sample) (Mercurial repository)
-- [https://github.com/Lombiq/Pretty-Good-Bootstrap-Base-Theme-Sample](https://github.com/Lombiq/Pretty-Good-Bootstrap-Base-Theme-Sample) (Git repository)
+## Contributing and support
 
-Bug reports, feature requests and comments are warmly welcome, **please do so via GitHub**.
-Feel free to send pull requests too, no matter which source repository you choose for this purpose.
+Bug reports, feature requests, comments, questions, code contributions, and love letters are warmly welcome, please do so via GitHub issues and pull requests. Please adhere to our [open-source guidelines](https://lombiq.com/open-source-guidelines) while doing so.
 
-This project is developed by [Lombiq Technologies Ltd](http://lombiq.com/). Commercial-grade support is available through Lombiq.
+This project is developed by [Lombiq Technologies](https://lombiq.com/). Commercial-grade support is available through Lombiq.
