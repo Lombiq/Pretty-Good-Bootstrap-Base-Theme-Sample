@@ -1,19 +1,21 @@
-# Lombiq's Open-Source Orchard Core Extensions
+# Pretty Good Bootstrap Base Theme Orchard Theme Sample Readme
 
 
 
 ## About
 
-Looking for some useful Orchard Core extensions? Here's a bundle solution of all of Lombiq's open-source Orchard Core extensions (modules and themes). Clone and try them out!
+This theme demonstrates how to build themes on top of Lombiq.PrettyGoodBootstrapBaseTheme, or PGBBT for short.
 
-This is an [Orchard Core CMS](https://www.orchardcore.net/) Visual Studio solution that contains most of [Lombiq](https://lombiq.com)'s open-source Orchard modules and themes, as well as related utilities and libraries. Please keep in mind that only those extensions are included which use the latest released version of Orchard (i.e. the very cutting-edge ones depending on a nightly build are not yet here). Since the extensions are included as git submodules when cloning this repo set git to initialize submodules.
+Notice that this theme has the "BaseTheme: Lombiq.PrettyGoodBootstrapBaseTheme" declaration in its Theme.txt so PGBBT is used as its base theme. Also note that if you want to see the zone map under Widgets on the admin you should have your own ThemeZonePreview.png in your theme, just as it is here.
 
-This also serves as an example of an ASP.NET Core web app using Orchard from NuGet.
+This sample is just demonstrating the usage of PGBBT: if you haven't already you also should read the [Bootstrap](http://getbootstrap.com/) and [LESS](http://www.lesscss.org/) documentation, and only [that of PGBBT](https://github.com/Lombiq/Pretty-Good-Bootstrap-Base-Theme/blob/master/Readme.md). 
+You'll need PGBBT also installed for the theme to work (in a folder called Lombiq.PrettyGoodBootstrapBaseTheme as that project is named as such).
 
-**You'll need to install NPM and Gulp for the solution to build** since the Vue.js module depends on it. Check out [the module's Readme](https://github.com/Lombiq/Orchard-Vue.js#prerequisites) for details.
+For the best development experience we advise you to use Visual Studio with the [Web Essentials](http://vswebessentials.com/) and [Web Compiler](https://visualstudiogallery.msdn.microsoft.com/3b329021-cd7a-4a01-86fc-714c2d05bb6c) extensions installed.
 
- Note that this solution has a more recent version targeting the nightly build of Orchard in the [orchard-core-preview branch](https://github.com/Lombiq/Open-Source-Orchard-Core-Extensions/tree/orchard-core-preview).
+BTW if you want to add a custom favicon to your team just drop it into the Images folder like it was done here! (Make sure to have you favicons adapted to multiple sizes. This can be easily done with multi-layer icons that can be [simply generated](http://convertico.org/).)
 
+You'll be guided by comments everywhere. Start with site.less!
 
 ## Contributing and support
 
